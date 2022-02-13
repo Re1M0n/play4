@@ -1,5 +1,8 @@
-html, body {
-background-color: #242629;
+body {
+background-image: url("fondo.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 overflow: hidden;
 }
 
@@ -35,9 +38,11 @@ position: absolute;
 top: 50%;
 left: 50%;
 
-font-size: 45px;
-font-family: sans-serif;
-color: #b8b8b8;
+font-size: 46px;
+font-family: fantasy;
+font-weight: bolder;
+-webkit-text-stroke: 2px black;
+color: #f2f02b;
 
 transform: translate(-50%, -50%);
 }
